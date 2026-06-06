@@ -1,0 +1,158 @@
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\appsettings.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.staticwebassets.runtime.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.staticwebassets.endpoints.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.exe
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.deps.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.runtimeconfig.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Azure.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Azure.Identity.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.ClientModel.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.csproj.AssemblyReference.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.AssemblyInfoInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.AssemblyInfo.cs
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.csproj.CoreCompileInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.RazorAssemblyInfo.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.RazorAssemblyInfo.cs
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\scopedcss\bundle\Healthcare.MVC.styles.css
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\swae.build.ex.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthca.C04AF741.Up2Date
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\refint\Healthcare.MVC.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.genruntimeconfig.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.MVC\obj\Debug\net8.0\ref\Healthcare.MVC.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\appsettings.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.staticwebassets.endpoints.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.staticwebassets.runtime.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.exe
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.deps.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.runtimeconfig.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.MVC.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Azure.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Azure.Identity.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.ClientModel.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\bin\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.csproj.AssemblyReference.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.AssemblyInfoInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.AssemblyInfo.cs
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.csproj.CoreCompileInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.RazorAssemblyInfo.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.RazorAssemblyInfo.cs
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\scopedcss\bundle\Healthcare.MVC.styles.css
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\swae.build.ex.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthca.C04AF741.Up2Date
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\refint\Healthcare.MVC.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\Healthcare.MVC.genruntimeconfig.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.MVC\obj\Debug\net8.0\ref\Healthcare.MVC.dll
