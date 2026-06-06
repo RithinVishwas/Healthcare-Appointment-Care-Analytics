@@ -1,0 +1,44 @@
+@*
+  File: src/Healthcare.MVC/Views/Patients/Index.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model IEnumerable<Patient>
+@{
+    ViewData["Title"] = "Patients";
+    ViewData["PageTitle"] = "Patient Management";
+    ViewData["Subtitle"] = "Create, validate, and maintain patient information securely.";
+}
+<div class="panel">
+    <div class="panel-header">
+        <div><h2>Patients</h2><p>Data is protected with validation and database constraints.</p></div>
+        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-person-plus"></i> Add Patient</a>
+    </div>
+    <div class="table-responsive">
+        @* Table renders database records returned from the controller/service layer. *@
+        <table class="table table-hover align-middle">
+            <thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>Gender</th><th>Blood Group</th><th></th></tr></thead>
+            <tbody>
+            @* Loop renders each record from the model collection without hardcoding rows. *@
+            @foreach (var patient in Model)
+            {
+                <tr>
+                    <td><strong>@patient.FullName</strong></td>
+                    <td>@patient.Email</td>
+                    <td>@patient.PhoneNumber</td>
+                    <td>@patient.Gender</td>
+                    <td>@patient.BloodGroup</td>
+                    @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+                    <td><a asp-action="Edit" asp-route-id="@patient.Id" class="btn btn-sm btn-outline-primary">Edit</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

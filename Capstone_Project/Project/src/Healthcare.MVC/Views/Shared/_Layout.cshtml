@@ -1,0 +1,94 @@
+@*
+  File: src/Healthcare.MVC/Views/Shared/_Layout.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Healthcare Analytics</title>
+    @* Bootstrap CDN provides responsive UI components without building a separate SPA framework. *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    @* Bootstrap CDN provides responsive UI components without building a separate SPA framework. *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    @* Project CSS file contains custom styling for the healthcare dashboard UI. *@
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon"><i class="bi bi-heart-pulse"></i></div>
+                <div>
+                    <strong>Care Analytics</strong>
+                    <span>Appointment Platform</span>
+                </div>
+            </div>
+            <nav>
+                @* Admin menu is shown only to Admin users. Normal users should not see admin patient lists/reports. *@
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Dashboard" asp-action="Index"><i class="bi bi-speedometer2"></i> Dashboard</a>
+                    <a asp-controller="Patients" asp-action="Index"><i class="bi bi-people"></i> Patients</a>
+                    <a asp-controller="Appointments" asp-action="Index"><i class="bi bi-calendar2-check"></i> Appointments</a>
+                    <a asp-controller="Reports" asp-action="Index"><i class="bi bi-graph-up-arrow"></i> Reports</a>
+                }
+
+                @* User menu is shown only to normal patient users. *@
+                @if (User.IsInRole("User"))
+                {
+                    <a asp-controller="PatientPortal" asp-action="Dashboard"><i class="bi bi-house-heart"></i> My Portal</a>
+                    <a asp-controller="PatientPortal" asp-action="Profile"><i class="bi bi-person-vcard"></i> My Profile</a>
+                    <a asp-controller="PatientPortal" asp-action="BookAppointment"><i class="bi bi-calendar-plus"></i> Book Appointment</a>
+                    <a asp-controller="PatientPortal" asp-action="MyAppointments"><i class="bi bi-clock-history"></i> My Appointments</a>
+                }
+            </nav>
+        </aside>
+        <main class="content">
+            <header class="topbar">
+                <div>
+                    <h1>@ViewData["PageTitle"]</h1>
+                    <p>@ViewData["Subtitle"]</p>
+                </div>
+                <div class="user-card">
+                    @* Conditional Razor block displays UI only when the required runtime condition is true. *@
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <span>@User.Identity.Name</span>
+                        @* Form posts data back to the controller action for server-side validation and saving. *@
+                        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+                        <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                            @* Anti-forgery token protects this form from CSRF attacks. *@
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-outline-danger">Logout</button>
+                        </form>
+                    }
+                </div>
+            </header>
+            <section class="page-body">
+                @* Conditional Razor block displays UI only when the required runtime condition is true. *@
+                @* TempData message appears once after redirect to confirm a successful operation. *@
+                @if (TempData["Success"] != null)
+                {
+                    @* TempData message appears once after redirect to confirm a successful operation. *@
+                    <div class="alert alert-success shadow-sm">@TempData["Success"]</div>
+                }
+                @* RenderBody places the selected page content inside the shared layout. *@
+                @RenderBody()
+            </section>
+        </main>
+    </div>
+    @* Bootstrap CDN provides responsive UI components without building a separate SPA framework. *@
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    @* Project JavaScript file contains small client-side enhancements/AJAX behavior. *@
+    <script src="~/js/site.js"></script>
+    @* Optional Scripts section lets individual pages add page-specific JavaScript safely. *@
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,19 @@
+@*
+  File: src/Healthcare.MVC/Views/Account/AccessDenied.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@{
+    ViewData["Title"] = "Access Denied";
+    ViewData["PageTitle"] = "Access Denied";
+    ViewData["Subtitle"] = "Your role does not have permission for this action.";
+}
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+<div class="empty-state">
+    <i class="bi bi-shield-lock"></i>
+    <h2>Access denied</h2>
+    <p>Please contact the administrator if you need access.</p>
+</div>

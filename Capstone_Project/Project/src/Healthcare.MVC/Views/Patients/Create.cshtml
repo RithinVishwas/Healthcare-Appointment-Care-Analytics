@@ -1,0 +1,17 @@
+@*
+  File: src/Healthcare.MVC/Views/Patients/Create.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model PatientViewModel
+@{
+    ViewData["Title"] = "Add Patient";
+    ViewData["PageTitle"] = "Register Patient";
+    ViewData["Subtitle"] = "All required inputs are validated before saving.";
+}
+<partial name="_PatientForm" model="Model" />

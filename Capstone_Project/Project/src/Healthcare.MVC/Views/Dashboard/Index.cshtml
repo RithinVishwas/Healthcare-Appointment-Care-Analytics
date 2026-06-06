@@ -1,0 +1,64 @@
+@*
+  File: src/Healthcare.MVC/Views/Dashboard/Index.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model Healthcare.Core.DTOs.AnalyticsSummaryDto
+@{
+    ViewData["Title"] = "Dashboard";
+    ViewData["PageTitle"] = "Care Delivery Dashboard";
+    ViewData["Subtitle"] = "Live overview of patients, doctors, appointments, and care status.";
+    var upcoming = ViewBag.Upcoming as IEnumerable<Appointment>;
+}
+<div class="stats-grid">
+    <div class="stat-card accent-blue"><span>Total Patients</span><strong id="totalPatients">@Model.TotalPatients</strong><i class="bi bi-people"></i></div>
+    <div class="stat-card accent-green"><span>Total Doctors</span><strong>@Model.TotalDoctors</strong><i class="bi bi-person-badge"></i></div>
+    <div class="stat-card accent-purple"><span>Appointments</span><strong>@Model.TotalAppointments</strong><i class="bi bi-calendar-event"></i></div>
+    <div class="stat-card accent-orange"><span>Scheduled</span><strong>@Model.ScheduledAppointments</strong><i class="bi bi-clock-history"></i></div>
+</div>
+
+<div class="panel mt-4">
+    <div class="panel-header">
+        <div><h2>Upcoming Appointments</h2><p>Validated appointment schedule from SQL Server.</p></div>
+        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+        <a asp-controller="Appointments" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Book Appointment</a>
+    </div>
+    <div class="table-responsive">
+        @* Table renders database records returned from the controller/service layer. *@
+        <table class="table table-hover align-middle">
+            <thead><tr><th>Time</th><th>Patient</th><th>Doctor</th><th>Reason</th><th>Status</th></tr></thead>
+            <tbody>
+            @* Conditional Razor block displays UI only when the required runtime condition is true. *@
+            @if (upcoming != null && upcoming.Any())
+            {
+                @* Loop renders each record from the model collection without hardcoding rows. *@
+                foreach (var item in upcoming)
+                {
+                    <tr>
+                        <td>@item.AppointmentDateTime.ToString("dd MMM yyyy, hh:mm tt")</td>
+                        <td>@item.Patient?.FullName</td>
+                        <td>@item.Doctor?.FullName</td>
+                        <td>@item.Reason</td>
+                        <td><span class="badge text-bg-info">@item.Status</span></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="5" class="text-center text-muted py-4">No upcoming appointments.</td></tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    refreshSummary('/Dashboard/SummaryJson');
+</script>
+}

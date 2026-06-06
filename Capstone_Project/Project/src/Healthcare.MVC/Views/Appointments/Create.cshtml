@@ -1,0 +1,50 @@
+@*
+  File: src/Healthcare.MVC/Views/Appointments/Create.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model AppointmentViewModel
+@{
+    ViewData["Title"] = "Book Appointment";
+    ViewData["PageTitle"] = "Book Appointment";
+    ViewData["Subtitle"] = "AJAX slot check + server-side business validation.";
+}
+<div class="panel form-panel">
+    @* Form posts data back to the controller action for server-side validation and saving. *@
+    <form method="post">
+        @* Anti-forgery token protects this form from CSRF attacks. *@
+        @Html.AntiForgeryToken()
+        @* Validation summary shows model-level errors returned from the controller. *@
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="row g-3">
+            @* Validation span displays server/client validation errors near the related field. *@
+            @* Select list restricts user choices to expected values, improving input quality. *@
+            <div class="col-md-6"><label asp-for="PatientId" class="form-label"></label><select asp-for="PatientId" asp-items="Model.Patients" class="form-select"><option value="">Select Patient</option></select><span asp-validation-for="PatientId" class="text-danger"></span></div>
+            @* Validation span displays server/client validation errors near the related field. *@
+            @* Select list restricts user choices to expected values, improving input quality. *@
+            <div class="col-md-6"><label asp-for="DoctorId" class="form-label"></label><select asp-for="DoctorId" asp-items="Model.Doctors" class="form-select" id="doctorId"><option value="">Select Doctor</option></select><span asp-validation-for="DoctorId" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="AppointmentDateTime" class="form-label"></label><input asp-for="AppointmentDateTime" class="form-control" id="appointmentTime" /><span asp-validation-for="AppointmentDateTime" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="DurationMinutes" class="form-label"></label><input asp-for="DurationMinutes" class="form-control" id="duration" /><span asp-validation-for="DurationMinutes" class="text-danger"></span></div>
+            @* Validation span displays server/client validation errors near the related field. *@
+            @* Textarea captures longer text while still binding through model validation. *@
+            <div class="col-12"><label asp-for="Reason" class="form-label"></label><textarea asp-for="Reason" class="form-control" rows="3"></textarea><span asp-validation-for="Reason" class="text-danger"></span></div>
+        </div>
+        <div id="slotStatus" class="slot-status mt-3"></div>
+        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+        <div class="mt-4 d-flex gap-2"><button class="btn btn-primary" type="submit">Book Appointment</button><a asp-action="Index" class="btn btn-outline-secondary">Cancel</a></div>
+    </form>
+</div>
+@section Scripts {
+<script>
+    enableSlotCheck('/Appointments/CheckSlot');
+</script>
+}

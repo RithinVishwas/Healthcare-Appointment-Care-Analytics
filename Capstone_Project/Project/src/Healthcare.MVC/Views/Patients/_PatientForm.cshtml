@@ -1,0 +1,46 @@
+@*
+  File: src/Healthcare.MVC/Views/Patients/_PatientForm.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model PatientViewModel
+<div class="panel form-panel">
+    @* Form posts data back to the controller action for server-side validation and saving. *@
+    <form method="post">
+        @* Anti-forgery token protects this form from CSRF attacks. *@
+        @Html.AntiForgeryToken()
+        @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+        <input asp-for="Id" type="hidden" />
+        @* Validation summary shows model-level errors returned from the controller. *@
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="row g-3">
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="FullName" class="form-label"></label><input asp-for="FullName" class="form-control" /><span asp-validation-for="FullName" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="Email" class="form-label"></label><input asp-for="Email" class="form-control" /><span asp-validation-for="Email" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="PhoneNumber" class="form-label"></label><input asp-for="PhoneNumber" class="form-control" /><span asp-validation-for="PhoneNumber" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            @* Validation span displays server/client validation errors near the related field. *@
+            <div class="col-md-6"><label asp-for="DateOfBirth" class="form-label"></label><input asp-for="DateOfBirth" class="form-control" /><span asp-validation-for="DateOfBirth" class="text-danger"></span></div>
+            @* Validation span displays server/client validation errors near the related field. *@
+            @* Select list restricts user choices to expected values, improving input quality. *@
+            <div class="col-md-6"><label asp-for="Gender" class="form-label"></label><select asp-for="Gender" class="form-select"><option value="">Select</option><option>Male</option><option>Female</option><option>Other</option></select><span asp-validation-for="Gender" class="text-danger"></span></div>
+            @* asp-for binds this input to a ViewModel property and enables validation messages. *@
+            <div class="col-md-6"><label asp-for="BloodGroup" class="form-label"></label><input asp-for="BloodGroup" class="form-control" /></div>
+            @* Validation span displays server/client validation errors near the related field. *@
+            @* Textarea captures longer text while still binding through model validation. *@
+            <div class="col-12"><label asp-for="Address" class="form-label"></label><textarea asp-for="Address" class="form-control" rows="3"></textarea><span asp-validation-for="Address" class="text-danger"></span></div>
+        </div>
+        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+        <div class="mt-4 d-flex gap-2"><button class="btn btn-primary" type="submit">Save Patient</button><a asp-action="Index" class="btn btn-outline-secondary">Cancel</a></div>
+    </form>
+</div>

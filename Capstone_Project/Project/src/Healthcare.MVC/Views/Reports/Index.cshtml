@@ -1,0 +1,32 @@
+@*
+  File: src/Healthcare.MVC/Views/Reports/Index.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model IEnumerable<Healthcare.Core.DTOs.DepartmentAppointmentReportDto>
+@{
+    ViewData["Title"] = "Reports";
+    ViewData["PageTitle"] = "Care Analytics Reports";
+    ViewData["Subtitle"] = "Report data comes from SQL Server stored procedure through ADO.NET.";
+}
+<div class="panel">
+    @* <div class="panel-header"><div><h2>Department Appointment Report</h2><p>Completed vs scheduled workload by department.</p></div><button class="btn btn-outline-primary" onclick="loadDepartmentReport('/Reports/DepartmentReportJson')">Refresh via AJAX</button></div> *@
+    <div class="table-responsive">
+        @* Table renders database records returned from the controller/service layer. *@
+        <table class="table table-hover align-middle" id="departmentReport">
+            <thead><tr><th>Department</th><th>Total</th><th>Completed</th><th>Scheduled</th></tr></thead>
+            <tbody>
+            @* Loop renders each record from the model collection without hardcoding rows. *@
+            @foreach (var item in Model)
+            {
+                <tr><td>@item.DepartmentName</td><td>@item.TotalAppointments</td><td>@item.CompletedAppointments</td><td>@item.ScheduledAppointments</td></tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

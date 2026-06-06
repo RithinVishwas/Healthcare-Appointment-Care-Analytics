@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "User Dashboard";
+    ViewData["PageTitle"] = "Patient User Portal";
+    ViewData["Subtitle"] = "Create your patient profile and book appointments.";
+}
+
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5>Patient Profile</h5>
+                <p class="text-muted">Create or update your personal patient details.</p>
+                <a asp-action="Profile" class="btn btn-primary">Open Profile</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5>Book Appointment</h5>
+                <p class="text-muted">Select a doctor, date, time, and reason for visit.</p>
+                <a asp-action="BookAppointment" class="btn btn-success">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5>My Appointments</h5>
+                <p class="text-muted">View your own appointment history and status.</p>
+                <a asp-action="MyAppointments" class="btn btn-outline-primary">View Appointments</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!(bool)ViewBag.HasProfile)
+{
+    <div class="alert alert-warning mt-4">
+        Please create your patient profile before booking an appointment.
+    </div>
+}

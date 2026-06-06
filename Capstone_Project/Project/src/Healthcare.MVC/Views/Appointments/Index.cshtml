@@ -1,0 +1,57 @@
+@*
+  File: src/Healthcare.MVC/Views/Appointments/Index.cshtml
+  Layer: MVC presentation layer
+  Purpose: This file is the Razor view responsible for rendering server-side UI while preserving MVC separation of concerns.
+  Security note: MVC validation and antiforgery tokens help protect forms from invalid input and CSRF attacks.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+*@
+
+@* Detailed Razor comments below explain UI binding, validation, security, and navigation behavior without changing markup logic. *@
+@* Strongly typed model lets Razor bind form fields/table output to a safe ViewModel or DTO. *@
+@model IEnumerable<Appointment>
+@{
+    ViewData["Title"] = "Appointments";
+    ViewData["PageTitle"] = "Appointment Scheduling";
+    ViewData["Subtitle"] = "Prevents duplicate slots for doctors and patients.";
+}
+<div class="panel">
+    <div class="panel-header">
+        <div><h2>Appointments</h2><p>Business rules run before a booking is saved.</p></div>
+        @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-calendar-plus"></i> Book Appointment</a>
+    </div>
+    <div class="table-responsive">
+        @* Table renders database records returned from the controller/service layer. *@
+        <table class="table table-hover align-middle">
+            <thead><tr><th>Date</th><th>Patient</th><th>Doctor</th><th>Department</th><th>Reason</th><th>Status</th><th></th></tr></thead>
+            <tbody>
+            @* Loop renders each record from the model collection without hardcoding rows. *@
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.AppointmentDateTime.ToString("dd MMM yyyy hh:mm tt")</td>
+                    <td>@item.Patient?.FullName</td>
+                    <td>@item.Doctor?.FullName</td>
+                    <td>@item.Doctor?.Department?.Name</td>
+                    <td>@item.Reason</td>
+                    <td><span class="badge text-bg-secondary">@item.Status</span></td>
+                    <td>
+                        @* Conditional Razor block displays UI only when the required runtime condition is true. *@
+                        @if (item.Status == Healthcare.Core.Enums.AppointmentStatus.Scheduled)
+                        {
+                            @* Form posts data back to the controller action for server-side validation and saving. *@
+                            @* Tag Helpers generate correct MVC URLs, reducing hardcoded links and routing mistakes. *@
+                            <form asp-action="Complete" method="post" class="d-inline">
+                                @* Anti-forgery token protects this form from CSRF attacks. *@
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button class="btn btn-sm btn-outline-success" type="submit">Complete</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
