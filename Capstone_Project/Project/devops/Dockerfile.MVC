@@ -1,0 +1,33 @@
+# Detailed Docker comments explain the build/runtime stages. No Docker instructions were changed.
+# File: devops/Dockerfile.MVC
+# Layer: DevOps/containerization layer
+# Purpose: This file is the Docker build file for containerizing the MVC web application project.
+# Best-practice note: comments explain intent only; no business logic has been changed.
+# Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+
+# Selects the base image for building or running the ASP.NET Core application.
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+# Sets the working directory inside the container.
+WORKDIR /app
+# Documents the port used by the application container.
+EXPOSE 8080
+
+# Selects the base image for building or running the ASP.NET Core application.
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Sets the working directory inside the container.
+WORKDIR /src
+# Copies project files into the container build context.
+COPY . .
+# Runs a build command during image creation.
+RUN dotnet restore src/Healthcare.MVC/Healthcare.MVC.csproj
+# Runs a build command during image creation.
+RUN dotnet publish src/Healthcare.MVC/Healthcare.MVC.csproj -c Release -o /app/publish
+
+# Selects the base image for building or running the ASP.NET Core application.
+FROM base AS final
+# Sets the working directory inside the container.
+WORKDIR /app
+# Copies project files into the container build context.
+COPY --from=build /app/publish .
+# Starts the ASP.NET Core application when the container runs.
+ENTRYPOINT ["dotnet", "Healthcare.MVC.dll"]

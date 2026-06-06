@@ -1,0 +1,40 @@
+# Detailed YAML comments explain CI/CD or container configuration. No configuration values were changed.
+# File: devops/docker-compose.yml
+# Layer: DevOps/containerization layer
+# Purpose: This file is the Docker Compose configuration for running the application services together during local/container testing.
+# Best-practice note: comments explain intent only; no business logic has been changed.
+# Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+
+version: "3.9"
+# Defines containers used by docker compose.
+services:
+  sqlserver:
+    # Docker image used to run this service.
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    # Defines environment variables used by the container/application.
+    environment:
+      SA_PASSWORD: "YourStrong@Passw0rd"
+      ACCEPT_EULA: "Y"
+    # Maps host ports to container ports for local/demo access.
+    ports:
+      - "1433:1433"
+  healthcare-api:
+    build:
+      context: ..
+      dockerfile: devops/Dockerfile.API
+    # Maps host ports to container ports for local/demo access.
+    ports:
+      - "5001:8080"
+    # Ensures dependent containers start in the correct order.
+    depends_on:
+      - sqlserver
+  healthcare-mvc:
+    build:
+      context: ..
+      dockerfile: devops/Dockerfile.MVC
+    # Maps host ports to container ports for local/demo access.
+    ports:
+      - "5002:8080"
+    # Ensures dependent containers start in the correct order.
+    depends_on:
+      - healthcare-api

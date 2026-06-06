@@ -1,0 +1,41 @@
+# Detailed YAML comments explain CI/CD or container configuration. No configuration values were changed.
+# File: devops/github-actions.yml
+# Layer: DevOps/containerization layer
+# Purpose: This file is the GitHub Actions workflow for conceptual CI/CD build, restore, test, and validation steps.
+# Best-practice note: comments explain intent only; no business logic has been changed.
+# Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+
+# Workflow name displayed in GitHub Actions.
+name: dotnet-ci
+# Defines which GitHub events trigger the pipeline.
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+# Groups automated build/test tasks.
+jobs:
+  build-test:
+    # Selects the build runner environment.
+    runs-on: ubuntu-latest
+    # Lists the individual CI/CD commands.
+    steps:
+      # Uses a reusable GitHub Action maintained by the community/vendor.
+      - uses: actions/checkout@v4
+      # Human-readable step name shown in the pipeline log.
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      # Human-readable step name shown in the pipeline log.
+      - name: Restore
+        # Shell command executed by the runner.
+        run: dotnet restore
+      # Human-readable step name shown in the pipeline log.
+      - name: Build
+        # Shell command executed by the runner.
+        run: dotnet build --configuration Release --no-restore
+      # Human-readable step name shown in the pipeline log.
+      - name: Test
+        # Shell command executed by the runner.
+        run: dotnet test --configuration Release --no-build
