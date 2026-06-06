@@ -1,0 +1,22 @@
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.deps.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.AssemblyInfoInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.AssemblyInfo.cs
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.csproj.CoreCompileInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\refint\Healthcare.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Core\obj\Debug\net8.0\ref\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.deps.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.AssemblyInfoInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.AssemblyInfo.cs
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.csproj.CoreCompileInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\refint\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\Healthcare.Core.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Core\obj\Debug\net8.0\ref\Healthcare.Core.dll

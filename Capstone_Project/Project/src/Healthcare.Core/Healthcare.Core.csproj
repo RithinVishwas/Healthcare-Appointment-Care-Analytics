@@ -1,0 +1,21 @@
+<!-- Detailed project-file comments explain dependencies/build settings. No XML values were changed. -->
+<!--
+  File: src/Healthcare.Core/Healthcare.Core.csproj
+  Layer: Core domain layer
+  Purpose: This file is the project file that declares SDK, target framework, NuGet packages, and project references.
+  Best-practice note: comments explain intent only; no business logic has been changed.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+-->
+<!-- MSBuild project root for this .NET project. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Contains project-wide build settings. -->
+  <PropertyGroup>
+    <!-- Defines the .NET version used to compile this project. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <!-- Controls nullable reference type compiler analysis. -->
+    <Nullable>disable</Nullable>
+    <!-- Allows common namespaces to be automatically available. -->
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

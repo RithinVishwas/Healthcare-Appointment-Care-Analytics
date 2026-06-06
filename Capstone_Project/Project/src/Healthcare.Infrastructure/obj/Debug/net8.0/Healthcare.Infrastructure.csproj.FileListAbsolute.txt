@@ -1,0 +1,34 @@
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.deps.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.runtimeconfig.json
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.csproj.AssemblyReference.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.AssemblyInfoInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.AssemblyInfo.cs
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthca.5260CDE5.Up2Date
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\refint\Healthcare.Infrastructure.dll
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.genruntimeconfig.cache
+D:\Demo TEST\UD_4_HealthcareAppointmentCareAnalytics_User_Registration_Portal_Update\HealthcareAppointmentCareAnalytics_FullyCommented\src\Healthcare.Infrastructure\obj\Debug\net8.0\ref\Healthcare.Infrastructure.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.deps.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.runtimeconfig.json
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Core.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\bin\Debug\net8.0\Healthcare.Core.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.csproj.AssemblyReference.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.AssemblyInfoInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.AssemblyInfo.cs
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthca.5260CDE5.Up2Date
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\refint\Healthcare.Infrastructure.dll
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.pdb
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\Healthcare.Infrastructure.genruntimeconfig.cache
+D:\Capstone Project\Healthcare Appoinment & Care Analytics\Capstone Project\src\Healthcare.Infrastructure\obj\Debug\net8.0\ref\Healthcare.Infrastructure.dll
