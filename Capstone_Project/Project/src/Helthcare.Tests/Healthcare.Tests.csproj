@@ -1,0 +1,43 @@
+<!-- Detailed project-file comments explain dependencies/build settings. No XML values were changed. -->
+<!--
+  File: src/Healthcare.Tests/Healthcare.Tests.csproj
+  Layer: Unit testing layer
+  Purpose: This file is the project file that declares SDK, target framework, NuGet packages, and project references.
+  Best-practice note: comments explain intent only; no business logic has been changed.
+  Change note: Only documentation comments were added; executable logic and project behavior remain unchanged.
+-->
+<!-- MSBuild project root for this .NET project. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Contains project-wide build settings. -->
+  <PropertyGroup>
+    <!-- Defines the .NET version used to compile this project. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <!-- Controls nullable reference type compiler analysis. -->
+    <Nullable>disable</Nullable>
+    <!-- Allows common namespaces to be automatically available. -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- MSBuild project root for this .NET project. -->
+    <!-- References another project in the layered solution. -->
+    <ProjectReference Include="..\Healthcare.Core\Healthcare.Core.csproj" />
+    <!-- MSBuild project root for this .NET project. -->
+    <!-- References another project in the layered solution. -->
+    <ProjectReference Include="..\Healthcare.Infrastructure\Healthcare.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Adds a NuGet package dependency required by this project. -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <!-- Adds a NuGet package dependency required by this project. -->
+    <PackageReference Include="xunit" Version="2.8.1" />
+    <!-- Adds a NuGet package dependency required by this project. -->
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <!-- Adds a NuGet package dependency required by this project. -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.5" />
+  </ItemGroup>
+</Project>
